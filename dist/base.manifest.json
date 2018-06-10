@@ -1,0 +1,886 @@
+{
+  "modules": {
+    "RNMetroDemo/base.js": {
+      "id": "2ac05c371a632eec9d7d2dbb19f744b4"
+    },
+    "react-native-implementation": {
+      "id": "0932722388ef1d214b790479e929a484"
+    },
+    "fbjs/lib/invariant.js": {
+      "id": "d1bb400c8aceee3b9f77d05aba616c89"
+    },
+    "AccessibilityInfo": {
+      "id": "8b06387d51238c192423c307c4b733d7"
+    },
+    "NativeModules": {
+      "id": "f813658102f66705a37b956cc5be4ae5"
+    },
+    "BatchedBridge": {
+      "id": "cbe035706a8d6389df30e15fa7f76954"
+    },
+    "MessageQueue": {
+      "id": "b6fdb9689f1509a025bb2d964c6cbca2"
+    },
+    "ErrorUtils": {
+      "id": "35f33818b1a15c2ca0b0151cef32f7f8"
+    },
+    "Systrace": {
+      "id": "9b1434c60bd1d2f574f3d0fc08a1a0fa"
+    },
+    "deepFreezeAndThrowOnMutationInDev": {
+      "id": "604c92033883771be32dc5d821a63524"
+    },
+    "stringifySafe": {
+      "id": "e7b2d0b1fa99e79b24d5f5c219c8e106"
+    },
+    "JSTimers": {
+      "id": "77582a9d7dd2ca417d0ef71d34fcd670"
+    },
+    "Platform": {
+      "id": "1561a09955b9695e81bb8dcc0de5b9b0"
+    },
+    "fbjs/lib/performanceNow.js": {
+      "id": "28fa729124f5438541f0cb194075131c"
+    },
+    "fbjs/lib/performance.js": {
+      "id": "bf5da8f91dfaafe9d0e13737087fa600"
+    },
+    "fbjs/lib/ExecutionEnvironment.js": {
+      "id": "2178eee2b0ba8f123b756ce9a44956bf"
+    },
+    "fbjs/lib/warning.js": {
+      "id": "f6caf1d80469adc9e043ab9b31143c04"
+    },
+    "fbjs/lib/emptyFunction.js": {
+      "id": "36b128f5acb92b4178dde420caadadec"
+    },
+    "defineLazyObjectProperty": {
+      "id": "9799aa819870593a18a2bfb5498974c9"
+    },
+    "RCTDeviceEventEmitter": {
+      "id": "e7c32ca7da5ffddf80ae2c1e1f4b4a88"
+    },
+    "EventEmitter": {
+      "id": "29c13138a79ef101e433a57ffa9e9321"
+    },
+    "EmitterSubscription": {
+      "id": "356d49d09ae2706b7ba092bb3c6e87ff"
+    },
+    "EventSubscription": {
+      "id": "bfb590eaf0d0e99a1742a6ea1dff2635"
+    },
+    "EventSubscriptionVendor": {
+      "id": "9e4ee7bf19c1f6ed46d2f982f5baccbc"
+    },
+    "ActivityIndicator": {
+      "id": "f8e6b344693e848d522c9a3e4d74e124"
+    },
+    "ColorPropType": {
+      "id": "aef2e17ede3f032417c818c9bcc36ef4"
+    },
+    "normalizeColor": {
+      "id": "8ce2ec0cec2fb191bf53eae488c95a17"
+    },
+    "NativeMethodsMixin": {
+      "id": "8174a57e0cb8a81faf0294c1392d594a"
+    },
+    "ReactNative": {
+      "id": "c3212f374182f3ec1a2e40c0b58fcc41"
+    },
+    "ReactNativeRenderer-prod": {
+      "id": "c6bd1a24df4089bfe22b4b1f93c852ff"
+    },
+    "InitializeCore": {
+      "id": "013e0d8987f2d5ef3a683c126a39d69e"
+    },
+    "PolyfillFunctions": {
+      "id": "701286856d15c1bf3c397c583ec99ec4"
+    },
+    "_shouldPolyfillES6Collection": {
+      "id": "b844f3fab54e5bcfe7da039fba50b657"
+    },
+    "Map": {
+      "id": "1a71f15c1101dfc3317798e18baa07bd"
+    },
+    "guid": {
+      "id": "f6a625b7a135da4745157221e3b8a84a"
+    },
+    "fbjs/lib/isNode.js": {
+      "id": "d45f39d35a1abdef4fa7d17c49c4ce44"
+    },
+    "toIterator": {
+      "id": "4548be1dde1b5ed089f5d509eac92f87"
+    },
+    "Set": {
+      "id": "65f2502d570259e9502ad81d8fdc311f"
+    },
+    "ExceptionsManager": {
+      "id": "b819cd7fcb06cb27e28907b46af04db8"
+    },
+    "parseErrorStack": {
+      "id": "daf65567b15102ba6eb632cfb216a329"
+    },
+    "stacktrace-parser/index.js": {
+      "id": "4d9e82efe35cd876b26f8fbeec21b216"
+    },
+    "stacktrace-parser/lib/stacktrace-parser.js": {
+      "id": "b82c7a9aaeea1707180ef34bccc97c7a"
+    },
+    "ReactNativeVersionCheck": {
+      "id": "3832785de2e337f0119ea8df0793d45a"
+    },
+    "ReactNativeVersion": {
+      "id": "1d41e9373fccabbad7fcf161d97d3043"
+    },
+    "Promise": {
+      "id": "7f89ca52e34d299bf21707e5985bd590"
+    },
+    "fbjs/lib/Promise.native.js": {
+      "id": "78ded5e4f7eeab6a92cf471f85f8e857"
+    },
+    "promise/setimmediate/es6-extensions.js": {
+      "id": "ef67b4181074e37660bf8bf9c06eb4b2"
+    },
+    "promise/setimmediate/core.js": {
+      "id": "5d7e4f51bde1a20397ca55ab800cada1"
+    },
+    "promise/setimmediate/done.js": {
+      "id": "87780d9bd43735585d9192ef94243557"
+    },
+    "regenerator-runtime/runtime.js": {
+      "id": "89382c17c73c14b88e13181ff8ab3317"
+    },
+    "XMLHttpRequest": {
+      "id": "dca7cdb089b0e4db11d6cb84d87f577c"
+    },
+    "event-target-shim/lib/event-target.js": {
+      "id": "679d3a78667ef963761b44a46d723aa2"
+    },
+    "event-target-shim/lib/commons.js": {
+      "id": "812a680471a7c3c5ff015b1da7e79055"
+    },
+    "event-target-shim/lib/custom-event-target.js": {
+      "id": "da4286afd0b1c078ef2ab7b24258f333"
+    },
+    "event-target-shim/lib/event-wrapper.js": {
+      "id": "83e37cdd25abd81c21d04c0e1743fdf0"
+    },
+    "RCTNetworking": {
+      "id": "f327909a4b5a1b21d599247de0e2f01a"
+    },
+    "MissingNativeEventEmitterShim": {
+      "id": "fd77aaf1e689355ba6d860f56c7ab562"
+    },
+    "NativeEventEmitter": {
+      "id": "34b7e27e7ffa9dd07a5000ebb36e857e"
+    },
+    "convertRequestBody": {
+      "id": "ca9aac03ea595fb513a8aa10c29f2306"
+    },
+    "binaryToBase64": {
+      "id": "fa1838b72cc9725bebda4a3317ce6d57"
+    },
+    "base64-js/index.js": {
+      "id": "935a357ef7ac9dd8e320bcd886dc2a67"
+    },
+    "Blob": {
+      "id": "c038167087cacce67892d8e9ffdd32cf"
+    },
+    "BlobManager": {
+      "id": "fd0006059479092ff2e579f4554dad27"
+    },
+    "BlobRegistry": {
+      "id": "b00709f2692a153f74f37461992dba77"
+    },
+    "FormData": {
+      "id": "d95040768499bb8f66671499125cd52e"
+    },
+    "fetch": {
+      "id": "b18babe30cd565217901f3c3516c45c0"
+    },
+    "whatwg-fetch/fetch.js": {
+      "id": "5c9e10950e23d2e105d521d5323760a0"
+    },
+    "WebSocket": {
+      "id": "5d6707c0a6bc116eac58b0ff8bdf40c6"
+    },
+    "WebSocketEvent": {
+      "id": "480097f74d3e4897d6b24d1a88c9e58f"
+    },
+    "File": {
+      "id": "4ab1737cc2d64d46b9059520880730c3"
+    },
+    "FileReader": {
+      "id": "f30411902d37142c0d98a7b27c49d4a0"
+    },
+    "URL": {
+      "id": "a2d6f78fae0d812d24b786ad83d6e422"
+    },
+    "Alert": {
+      "id": "63137074797f7f0904ba6c0547a9ebee"
+    },
+    "AlertIOS": {
+      "id": "02d0fc759614ed242e5cf3cd61b9b37a"
+    },
+    "Geolocation": {
+      "id": "5c9bcd74f2ffbfe84328b39302a58a2d"
+    },
+    "logError": {
+      "id": "962bde8120fa5b3895a11fa5b5f01385"
+    },
+    "PermissionsAndroid": {
+      "id": "3cd96be479e80cb3ed6d0a5c50b7c02a"
+    },
+    "HeapCapture": {
+      "id": "2597a0157c61b26bc7ffc72f7cf03bf5"
+    },
+    "SamplingProfiler": {
+      "id": "a8123f1b60ad72a3fbb877157fefad9f"
+    },
+    "RCTLog": {
+      "id": "e5e926a363f0d0faf2591ea6866b21c0"
+    },
+    "RCTNativeAppEventEmitter": {
+      "id": "84e41074c34b056f5ee7f23e7cf15793"
+    },
+    "PerformanceLogger": {
+      "id": "f4703a21b87b8b385b41feca091ec7c8"
+    },
+    "infoLog": {
+      "id": "6038f560cd909fb38767b15097f34acf"
+    },
+    "JSDevSupportModule": {
+      "id": "d23d9892b5561d59c5796b9155ccdbfc"
+    },
+    "UIManager": {
+      "id": "31c9739f00df498f6381d3301bbea24c"
+    },
+    "RCTEventEmitter": {
+      "id": "cb70796ba64f08dfea996a7e924dba42"
+    },
+    "TextInputState": {
+      "id": "25e70783809d28c1816a4c5a73a8877f"
+    },
+    "deepDiffer": {
+      "id": "30a674ba0336db64677c849c4131d6f2"
+    },
+    "flattenStyle": {
+      "id": "9639186e3e05ae53e6cb2705ff648abb"
+    },
+    "ReactNativePropRegistry": {
+      "id": "b18273ed145d9b44ffa778cea5cfad0e"
+    },
+    "react/index.js": {
+      "id": "24f1c96efc83b9dac78516e37cedd26f"
+    },
+    "react/cjs/react.production.min.js": {
+      "id": "104b23e3711fdb86ad11fb827a6047bc"
+    },
+    "object-assign/index.js": {
+      "id": "a911d92364f9b4702dd58667b3b5b193"
+    },
+    "fbjs/lib/emptyObject.js": {
+      "id": "2b9fcc5a3ba122b36e3e86864fef2ac5"
+    },
+    "fbjs/lib/shallowEqual.js": {
+      "id": "ed024b7ef83124d2c444636d9739ec99"
+    },
+    "ReactFeatureFlags": {
+      "id": "ecbe702aee24f0c390a856fc75bd74e1"
+    },
+    "ProgressBarAndroid": {
+      "id": "b033437149a171afd4c3a7d4100011de"
+    },
+    "prop-types/index.js": {
+      "id": "ac5864a175497320deff157823cf65ba"
+    },
+    "prop-types/factoryWithThrowingShims.js": {
+      "id": "b4cd69100d3c8f76127006a1ff9d1d6f"
+    },
+    "prop-types/lib/ReactPropTypesSecret.js": {
+      "id": "a678d5026b6231c7a71e775d17055cb5"
+    },
+    "React": {
+      "id": "1b0c2922fe53165cf7daa1f0d8a10b66"
+    },
+    "ViewPropTypes": {
+      "id": "8e04fd9826bc7d85ef67d1edb0ef9edc"
+    },
+    "EdgeInsetsPropType": {
+      "id": "5e321fc0663aff0abb29d82ecef3df44"
+    },
+    "createStrictShapeTypeChecker": {
+      "id": "7a5e6d283164796a1304d4a78123c61e"
+    },
+    "merge": {
+      "id": "72835328a4ac7977551308d30bb2699c"
+    },
+    "mergeInto": {
+      "id": "a585b655694ffbc3ef9cd2c229f29057"
+    },
+    "mergeHelpers": {
+      "id": "9e730210b7528fa2eeaeb9f1a6738e42"
+    },
+    "PlatformViewPropTypes": {
+      "id": "267c37fa0c4d76c2c4110a6df3ce4064"
+    },
+    "TVViewPropTypes": {
+      "id": "f9d5749dc4e32c5628daa2d7b14c92cf"
+    },
+    "StyleSheetPropType": {
+      "id": "7aa8c40b6fa9bfc5521089850d4fefd2"
+    },
+    "ViewStylePropTypes": {
+      "id": "5de862375d507321e73da797d69307c0"
+    },
+    "LayoutPropTypes": {
+      "id": "80148883fcf8e4be13f99ea4933281b9"
+    },
+    "ShadowPropTypesIOS": {
+      "id": "f4a10f15cc6033e8c18379b64d3c28e9"
+    },
+    "TransformPropTypes": {
+      "id": "81895fb7114578277fe2da18e7dc6dba"
+    },
+    "deprecatedPropType": {
+      "id": "f2c3a3f9284b1a19846819e176f33768"
+    },
+    "ViewAccessibility": {
+      "id": "0eb8b77f059a8018710c62920330c366"
+    },
+    "requireNativeComponent": {
+      "id": "532d62108c4503364a107ec50d585586"
+    },
+    "ReactNativeBridgeEventPlugin": {
+      "id": "e0280fc8568143ae06e7f9e1a601e57a"
+    },
+    "ReactNativeStyleAttributes": {
+      "id": "deb33f15ee385611f451c224b31b3aef"
+    },
+    "ImageStylePropTypes": {
+      "id": "773314700fcc15a01483e0acf4ef005c"
+    },
+    "ImageResizeMode": {
+      "id": "d8869704074d378e9aaddd2ed2c7fb6c"
+    },
+    "fbjs/lib/keyMirror.js": {
+      "id": "60c305edb0e938ccedc37ff6121fd462"
+    },
+    "TextStylePropTypes": {
+      "id": "69bda7cd5bd676fb6f642563ca173ade"
+    },
+    "processColor": {
+      "id": "197fcfd45d5abd322a715f7ebe90dec2"
+    },
+    "processTransform": {
+      "id": "4d7684bac1e3fbf8f286c297a1a1107e"
+    },
+    "MatrixMath": {
+      "id": "d4721ae94a8cb5a02770e2fdc07e01b6"
+    },
+    "sizesDiffer": {
+      "id": "771b1830b37958ca96f605dcb9f67c10"
+    },
+    "createReactNativeComponentClass": {
+      "id": "0ecdbb59a45f72a1758e86acf1f4e277"
+    },
+    "insetsDiffer": {
+      "id": "26d8a40ad2f92e27704c810027888638"
+    },
+    "matricesDiffer": {
+      "id": "21a8bdbd50f34088d235c102e9f38e6d"
+    },
+    "pointsDiffer": {
+      "id": "38046f777ff6c9c773220e3d93d547c0"
+    },
+    "resolveAssetSource": {
+      "id": "9b9fc22dac3482f0539a31fc490b8df0"
+    },
+    "AssetRegistry": {
+      "id": "065b58768dd481ff9361ba12b0671280"
+    },
+    "AssetSourceResolver": {
+      "id": "70ed9930ccd5a26deb8dc73c01135029"
+    },
+    "PixelRatio": {
+      "id": "6bf467b0884aa749d75542385a35a51d"
+    },
+    "Dimensions": {
+      "id": "9c9afd768bac3a521c51156c4a2932e8"
+    },
+    "DeviceInfo": {
+      "id": "34db9373108ff298992b6efae92dc51a"
+    },
+    "react-native/local-cli/bundle/assetPathUtils.js": {
+      "id": "001303ca4bbf419c8336af2a40d91323"
+    },
+    "verifyPropTypes": {
+      "id": "8cf32c1e2a211a9380ca59b3e915e646"
+    },
+    "StyleSheet": {
+      "id": "f4d2fd8e543d69fdb589cb580b2e2743"
+    },
+    "StyleSheetValidation": {
+      "id": "55d5d89353e58a6db38b74b5270b1d92"
+    },
+    "View": {
+      "id": "7eebe9ac0a244b7446c6f3e11615b03b"
+    },
+    "ReactNativeViewAttributes": {
+      "id": "7bdb598bda34228a11bb9912b56f632e"
+    },
+    "ViewContext": {
+      "id": "54a0d223d6f56d95a9315214d9c2304a"
+    },
+    "create-react-class/index.js": {
+      "id": "cc4758e639367dbcc3133ad58c71abb0"
+    },
+    "create-react-class/factory.js": {
+      "id": "264b689114efdd669e2fe36402ee5cd9"
+    },
+    "ReactNativeART": {
+      "id": "7dc6577b6d6dacdba7035e766adf67ab"
+    },
+    "art/core/color.js": {
+      "id": "4d9b3bc8bdf824d91c952c21f7e3b5d0"
+    },
+    "ARTSerializablePath": {
+      "id": "61c3cf575eb1e12c839cb09ac1e45e04"
+    },
+    "art/core/class.js": {
+      "id": "e5547020a8dacc4ffd1bc8311c7c395a"
+    },
+    "art/core/path.js": {
+      "id": "09acf315c96343fe03216e93bd7c4231"
+    },
+    "art/core/transform.js": {
+      "id": "ff33baa95a5adba3cdab2d2501395e3c"
+    },
+    "Button": {
+      "id": "ff06e5fb5bb9e18267724620d077ea64"
+    },
+    "Text": {
+      "id": "c4c849526e3a0722945fd434f1b01086"
+    },
+    "TextPropTypes": {
+      "id": "a14a886ba43474d9a1dbf9299217f482"
+    },
+    "Touchable": {
+      "id": "b8d6a2a66427faf876e9a0a1e53565f2"
+    },
+    "BoundingDimensions": {
+      "id": "8b54e8a7d7f526245b1df321576e90d8"
+    },
+    "PooledClass": {
+      "id": "416bccf7589d2c74d405c68669c7bf50"
+    },
+    "Position": {
+      "id": "345a89c9606fa1a483da8efb037435a8"
+    },
+    "TVEventHandler": {
+      "id": "42ea874244b852f9e268d815820a6173"
+    },
+    "fbjs/lib/TouchEventUtils.js": {
+      "id": "1ba4a0d8c07e420459de0da5a1b2dd0b"
+    },
+    "mergeFast": {
+      "id": "4901a2dd3f77c9fee87e368af5e64d74"
+    },
+    "TouchableNativeFeedback": {
+      "id": "d933b96c2dd5a78f82ad77153752bce1"
+    },
+    "TouchableWithoutFeedback": {
+      "id": "54194cc1920d437ab058100aa205a17d"
+    },
+    "react-timer-mixin/TimerMixin.js": {
+      "id": "425c2c77bddebba9cfda2a22b764829c"
+    },
+    "ensurePositiveDelayProps": {
+      "id": "2ef50c5e707a5818f35167494af98d08"
+    },
+    "TouchableOpacity": {
+      "id": "d47e9c0c2b043aa943073fdfabe04eba"
+    },
+    "Animated": {
+      "id": "f71a949b6cb5a125276be52f68d864a3"
+    },
+    "AnimatedImplementation": {
+      "id": "5a3c6abba1fc4e7dc5a97b889c925a28"
+    },
+    "AnimatedEvent": {
+      "id": "fb3f8ca7c583b249af029a4fba18a973"
+    },
+    "AnimatedValue": {
+      "id": "74a7daf2867ed4419c853cfdd30ae1f4"
+    },
+    "AnimatedInterpolation": {
+      "id": "4fcaaae32e19a732d584650f08c3f6ef"
+    },
+    "AnimatedNode": {
+      "id": "438636d2a57ea35383af91651fcca04e"
+    },
+    "NativeAnimatedHelper": {
+      "id": "df71ee54693d6134e71ee93e0fb57b57"
+    },
+    "AnimatedWithChildren": {
+      "id": "5dc358c3f5b6da7785a780717b8b2cdd"
+    },
+    "InteractionManager": {
+      "id": "1a29f9421acb48c8f50b74fcb5a5d3b1"
+    },
+    "TaskQueue": {
+      "id": "fd3ba8fde1394130ce5b49cf045fc5a8"
+    },
+    "AnimatedAddition": {
+      "id": "41eac08052804c063056fc7e74c23bbb"
+    },
+    "AnimatedDiffClamp": {
+      "id": "bf0b90d47265ce51f703e9847cf471a4"
+    },
+    "AnimatedDivision": {
+      "id": "0770295f49abdfb80fa58d8f2df3a7bd"
+    },
+    "AnimatedModulo": {
+      "id": "7c0466569ccddd804712888da4887373"
+    },
+    "AnimatedMultiplication": {
+      "id": "1ed3cc850fbffdae1208b65e4f97d48b"
+    },
+    "AnimatedProps": {
+      "id": "03224be4aa09911bbd1a52a43a2e8145"
+    },
+    "AnimatedStyle": {
+      "id": "ae81ab8644e42cf3dda133887b07cad9"
+    },
+    "AnimatedTransform": {
+      "id": "9f5ea760f760deef03ac990d9b84a0cf"
+    },
+    "AnimatedTracking": {
+      "id": "7003a85947b426c80fd0468f75c84446"
+    },
+    "AnimatedValueXY": {
+      "id": "9225df566500e5b023bf94a3f99df692"
+    },
+    "DecayAnimation": {
+      "id": "48e3fa8b8cec0f874ab8b297108b0420"
+    },
+    "Animation": {
+      "id": "b37425dd5863be7e0186e941962315fc"
+    },
+    "SpringAnimation": {
+      "id": "558414271bdbc2fef97224bc7184ee09"
+    },
+    "SpringConfig": {
+      "id": "b8a457c52c08210bea627e01dea669c0"
+    },
+    "TimingAnimation": {
+      "id": "454673099686cae46495c1090f2a4598"
+    },
+    "Easing": {
+      "id": "e3ad5eff222de6292a4ab8d9a4ff112a"
+    },
+    "bezier": {
+      "id": "7582687fdc2274225ac40201a5204c71"
+    },
+    "createAnimatedComponent": {
+      "id": "9bb5a7bd01886f101120617f39a85dba"
+    },
+    "Image": {
+      "id": "6df7476774bb8fe381c8a10f9d40a597"
+    },
+    "ScrollView": {
+      "id": "050f314deb713a957cbc233860e2ee83"
+    },
+    "PointPropType": {
+      "id": "96142ab28337f4239a7a285fc319f00e"
+    },
+    "ScrollResponder": {
+      "id": "e89dc1aa03bd2addfac44b4b818a9db1"
+    },
+    "FrameRateLogger": {
+      "id": "024cddb880149f512fcc139d991be4eb"
+    },
+    "Keyboard": {
+      "id": "fc3b52cbd0ba19ffe7ff3f05c81100c6"
+    },
+    "LayoutAnimation": {
+      "id": "183b531a27f4aeebe3c49b2bd3a91216"
+    },
+    "dismissKeyboard": {
+      "id": "54f6794c61ddff9cb95891b51769b4b0"
+    },
+    "Subscribable": {
+      "id": "2dd166889266e0d548974867c2d07a17"
+    },
+    "fbjs/lib/nullthrows.js": {
+      "id": "a49c5d56d5d5227d68483bf6d5153715"
+    },
+    "ReactNativeComponentTree": {
+      "id": "c8719c98e02e850ed5c65bf65ccbe783"
+    },
+    "ScrollViewStickyHeader": {
+      "id": "5248750e3f3877bee26cad924378f21a"
+    },
+    "processDecelerationRate": {
+      "id": "27a7fa68c8da1c84a586f17845d4e0f9"
+    },
+    "CheckBox": {
+      "id": "c55764a71628c1676a760f6f1f3fe2ed"
+    },
+    "DatePickerIOS": {
+      "id": "e1bdb2c34a684aa89348aff26e8c61af"
+    },
+    "DrawerLayoutAndroid": {
+      "id": "cfa51980d0d226e4c0364defced0cd85"
+    },
+    "StatusBar": {
+      "id": "63ccb27ca9d2ca923f7d813f61a8ab67"
+    },
+    "FlatList": {
+      "id": "c2e0e7c54fa4d3e6229a085f1cf3d2bc"
+    },
+    "MetroListView": {
+      "id": "ef43d5d7e6b547e29961a446345e4a1c"
+    },
+    "ListView": {
+      "id": "aa9bccc50df4339332b04da97f85f7e2"
+    },
+    "ListViewDataSource": {
+      "id": "90d38c051a8da29ca037212f458a6e37"
+    },
+    "isEmpty": {
+      "id": "8ccb74d34b3d8153f72846ec77db8ffd"
+    },
+    "StaticRenderer": {
+      "id": "3e704714c747bfa51d27ca025800cac8"
+    },
+    "react-clone-referenced-element/cloneReferencedElement.js": {
+      "id": "e9e83806dc03f43594a13a7072a9a9c7"
+    },
+    "RefreshControl": {
+      "id": "5066e8d0d5674bb2901b8af86b6dec1b"
+    },
+    "VirtualizedList": {
+      "id": "8ea81755b4772ec2d74ac7c35091fb8f"
+    },
+    "Batchinator": {
+      "id": "2d814f00ab72a6b07e294691a2517a79"
+    },
+    "FillRateHelper": {
+      "id": "55f52d8d47c5115585903546da3afbd4"
+    },
+    "ViewabilityHelper": {
+      "id": "67799acfca09ddf8afda950e80888154"
+    },
+    "VirtualizeUtils": {
+      "id": "c56dff18c8879a944d8c34fa8e5755ed"
+    },
+    "ImageBackground": {
+      "id": "670ebaded761ae206007ca4b73388143"
+    },
+    "ensureComponentIsNative": {
+      "id": "588d7d1662527c0b0549b5f5039b2da5"
+    },
+    "ImageEditor": {
+      "id": "1a1357e8c5a3622008083a170a99b2e9"
+    },
+    "ImageStore": {
+      "id": "ee717429ad36ccddbdd9893a9911c256"
+    },
+    "KeyboardAvoidingView": {
+      "id": "1e1e84605d5fd7b5481da5d73d206058"
+    },
+    "MaskedViewIOS": {
+      "id": "672b6e01109dc953b72251812f290765"
+    },
+    "UnimplementedView": {
+      "id": "46ece2a49a4b7fadcb6775f114321502"
+    },
+    "Modal": {
+      "id": "daa73b282e4f615e54401ba05579572c"
+    },
+    "AppContainer": {
+      "id": "b60d9c96ef2bd78b00ff4894badb4212"
+    },
+    "I18nManager": {
+      "id": "79db66390bf3cfd446b12dc28f8ec003"
+    },
+    "NavigatorIOS": {
+      "id": "816cf0d1e56f04e67d629adb0feb6a09"
+    },
+    "Picker": {
+      "id": "965cf53183a1de959d98c65758797d86"
+    },
+    "PickerIOS": {
+      "id": "d29ee2239cf8c6ea13e5cfad3960ad54"
+    },
+    "PickerAndroid": {
+      "id": "429ef8f7ee03c0da4cc46c749c8d9b35"
+    },
+    "ProgressViewIOS": {
+      "id": "eb973ff6848973af430a5bc83d56e3d1"
+    },
+    "SafeAreaView": {
+      "id": "f4dcf25bf9f28ca2e3dba9993ffaa925"
+    },
+    "SectionList": {
+      "id": "e0de3e1b20e62685cf12a26d45e39eb2"
+    },
+    "VirtualizedSectionList": {
+      "id": "f876171c9fcb8c9314abf6769765a1e1"
+    },
+    "SegmentedControlIOS": {
+      "id": "f686912304a7020f9aa57dcc68ca9987"
+    },
+    "Slider": {
+      "id": "35fa7f35abccb2b996959a827a347856"
+    },
+    "SnapshotViewIOS": {
+      "id": "49cd147149675afb2022fb554c4b862d"
+    },
+    "Switch": {
+      "id": "60a490b2fe5bc8fe1a9e1ffcfee8563f"
+    },
+    "SwipeableFlatList": {
+      "id": "236bf1e3a06e5fb2c40d47ea84f02563"
+    },
+    "SwipeableRow": {
+      "id": "af7525f3c7e5b88b2ed8e5e3efb815d1"
+    },
+    "PanResponder": {
+      "id": "136c09cb92e6f6296534f0b8d256bea1"
+    },
+    "TouchHistoryMath": {
+      "id": "f482a85956298192c4f907c11fce3595"
+    },
+    "SwipeableListView": {
+      "id": "5c5dec49793a419e5191813c8bb48aac"
+    },
+    "SwipeableListViewDataSource": {
+      "id": "8fa2328f7cca6cfd69f75160b41204be"
+    },
+    "TabBarIOS": {
+      "id": "97f3462dca3b47e4723072ff19a4c7e0"
+    },
+    "TabBarItemIOS": {
+      "id": "368a119338ad7b5bc21af940aa0ff086"
+    },
+    "TextInput": {
+      "id": "23b9180f61f5d35822e66f6cf7a44eda"
+    },
+    "DocumentSelectionState": {
+      "id": "c5596c81506b0b56cc0f9fa0d00881d8"
+    },
+    "mixInEventEmitter": {
+      "id": "89cdc9cbf329d600e0b66e0ebf413ef6"
+    },
+    "EventEmitterWithHolding": {
+      "id": "7efd1567480ab16ea424cd311e6de73c"
+    },
+    "EventHolder": {
+      "id": "1fc693830e83878a65349732eceb082d"
+    },
+    "fbjs/lib/keyOf.js": {
+      "id": "c0482d1c49b9844edb13d13fae229e9a"
+    },
+    "ToastAndroid": {
+      "id": "1b5f24277bf83125721c6f5b1aa6ac8f"
+    },
+    "ToolbarAndroid": {
+      "id": "517e43ac68ec5a3111e6922568660e59"
+    },
+    "TouchableHighlight": {
+      "id": "e43d84e42518bae62ae742269f12c7c6"
+    },
+    "ViewPagerAndroid": {
+      "id": "37fa6c68cedeca0539ae7b82c9b59c1b"
+    },
+    "WebView": {
+      "id": "fd95bdd004cfb96c99d16564405de79b"
+    },
+    "ActionSheetIOS": {
+      "id": "b430f237b891dfe2d5503e431ede912f"
+    },
+    "AppRegistry": {
+      "id": "241e9e5ff2e0fd75027377f15b7d2f35"
+    },
+    "BugReporting": {
+      "id": "63c9bb2bca587afa3b2dce03eadd2864"
+    },
+    "dumpReactTree": {
+      "id": "72f5d0e0400b4dc5452cde3f826febc1"
+    },
+    "SceneTracker": {
+      "id": "517d5b34eba192f15f4c58c999aee9b7"
+    },
+    "renderApplication": {
+      "id": "6579d9d28e00025f6deb61009dd5f57b"
+    },
+    "BackHandler": {
+      "id": "445b00821fe9aae87d37d7544bf1f7dc"
+    },
+    "AppState": {
+      "id": "941edba5d3c1d21ae736d0a7fd88b461"
+    },
+    "AsyncStorage": {
+      "id": "2192c6e9a78707e3b4705ee9f9336c76"
+    },
+    "BackAndroid": {
+      "id": "d44806d67b047699bf4fa79e05b73a2c"
+    },
+    "CameraRoll": {
+      "id": "6ca1daf9bde30f74886d01914030119e"
+    },
+    "Clipboard": {
+      "id": "a7c7f1f4b05ca16cc95d683488eb6953"
+    },
+    "DatePickerAndroid": {
+      "id": "2a512b5a1c8a1ec046557f6e3a61c5bd"
+    },
+    "ImagePickerIOS": {
+      "id": "1fbae2b20646966155d1e562c385bd4a"
+    },
+    "Linking": {
+      "id": "8714878d218fccb4213d0835023e19f5"
+    },
+    "NetInfo": {
+      "id": "d9bd40eaaa1ad752712906dd7df674d3"
+    },
+    "PushNotificationIOS": {
+      "id": "107041fd509c1679d3c280e37069e1c7"
+    },
+    "Settings": {
+      "id": "9580bc9c888401e7d06c30d2f9198b02"
+    },
+    "Share": {
+      "id": "a3b441a4a272ad0b17e79e6b6957d04c"
+    },
+    "StatusBarIOS": {
+      "id": "9eb02bbcbd12f06d6deb2ad7a04d755b"
+    },
+    "TimePickerAndroid": {
+      "id": "eab8146fe89e38c970309b190d6e506c"
+    },
+    "Vibration": {
+      "id": "7c5269f2341b407e8cadb0130473ec30"
+    },
+    "VibrationIOS": {
+      "id": "207a22e2a37ab5f03db558d3c9d65795"
+    },
+    "YellowBox": {
+      "id": "5f0d423c56c28d06efd7d830882168a1"
+    },
+    "openFileInEditor": {
+      "id": "fb56a4cebf2491280c4145bc436a8cc9"
+    },
+    "getDevServer": {
+      "id": "8b59961da622170eba464937598819c9"
+    },
+    "symbolicateStackTrace": {
+      "id": "efa1fc5a43e6350dcc3846dc37724a18"
+    },
+    "takeSnapshot": {
+      "id": "441214fc5adc18aadaa433dca86c3e67"
+    }
+  }
+}
